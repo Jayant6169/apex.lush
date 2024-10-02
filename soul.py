@@ -230,12 +230,12 @@ def send_welcome(message):
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
     if message.text == "Instant Plan 🧡":
-        bot.reply_to(message, "*Power Of @VIKAS_YADAV29 bgmi ki maa ka bhosda*", parse_mode='Markdown')
+        bot.reply_to(message, "*Power Of @LUSHOwner bgmi ki maa ka bhosda*", parse_mode='Markdown')
     elif message.text == "Instant++ Plan 💥":
         bot.reply_to(message, "*Instant++ Plan selected*", parse_mode='Markdown')
         attack_command(message)
     elif message.text == "Canary Download✔️":
-        bot.send_message(message.chat.id, "*Please use the following link for Canary Download: https://t.me/c/2173178562/4013 *", parse_mode='Markdown')
+        bot.send_message(message.chat.id, "*Please use the following link for Canary Download: https://t.me/lush_ddos/2 *", parse_mode='Markdown')
     elif message.text == "My Account🏦":
         user_id = message.from_user.id
         user_data = users_collection.find_one({"user_id": user_id})
